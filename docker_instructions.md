@@ -1,6 +1,8 @@
 **Install docker**
 
-    curl -sSL https://get.docker.com | sh
+    sudo apt-get update && sudo apt-get upgrade
+    curl -fsSL https://get.docker.com -o get-docker.sh
+    sudo groupadd docker
     sudo usermod pi -aG docker
     sudo reboot
 
