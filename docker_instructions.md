@@ -17,6 +17,10 @@
 	cd youtubelive
 	docker build -t octoprint/youtubelive .	
 	
+	
+**Now (And Only Now) Install The Plugin**
+You can do so from the Octoprint Plugin Manager
+
 **Test**
 
 Set up your stream on the [YouTube Live Dashboard](https://www.youtube.com/live_dashboard) and enter your stream id and IP address in the command below in place of xxxx-xxxx-xxxx-xxxx and <ip>.
