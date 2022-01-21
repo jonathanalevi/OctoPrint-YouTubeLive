@@ -1,6 +1,8 @@
 **Install docker**
 
-    curl -sSL https://get.docker.com | sh
+    curl -fsSL https://get.docker.com -o get-docker.sh
+    sudo sh get-docker.sh
+    sudo groupadd docker
     sudo usermod pi -aG docker
     sudo reboot
 
